@@ -10,7 +10,7 @@ Built with **React** and **Redux Toolkit**, this application demonstrates modern
 
 ## 🚀 Live Demo
 
-> 📎 _[deployed URL]_
+> 📎 _[https://divinebi.github.io/e-plantShopping/](https://divinebi.github.io/e-plantShopping/)_
 
 ---
 
@@ -93,7 +93,7 @@ You can deploy this app using **GitHub Pages** or any other static hosting servi
 1.  Add those lines before `"build": "vite build"` in `package.json`.
     ```json
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist",.
+        "deploy": "gh-pages -d dist",
     ```
 2. Run:
    ```bash

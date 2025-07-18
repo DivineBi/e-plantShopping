@@ -109,8 +109,6 @@ You can deploy this app using **GitHub Pages** or any other static hosting servi
    npm run deploy
    ```
 
-> 🔗 Share the deployed URL in your peer review submission.
-
 ---
 
 ## 🙌 Acknowledgments

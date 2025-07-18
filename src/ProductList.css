@@ -38,6 +38,9 @@ body {
     text-decoration: none;
    
 }
+.navbar .ul div:first-child a {
+    margin-left: 150px; /* Ajuste la valeur selon le besoin */
+}
 
 /* Product Grid */
 .product-grid {
@@ -57,6 +60,14 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+.category-name {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 /* Product Card */
@@ -184,10 +195,9 @@ body {
     margin: 20px;
     border: 1px solid rgb(5, 4, 4);
     border-left: none;
-    border-right: none;
-
-    
+    border-right: none;    
 }
+
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
     .product-card {
